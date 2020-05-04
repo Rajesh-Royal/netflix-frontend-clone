@@ -1,0 +1,219 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    overflow-x: hidden;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-basis{
+    flex-basis: 100%;
+}
+.flex-center{
+    justify-content: center;
+}
+.middle-align{
+    align-items: center;
+}
+.direction-column{
+    flex-direction: column;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+h1,h2{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+.button{
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #e50914;
+    color: white;
+    cursor: pointer;
+}
+
+/* index page styling start */
+body::before{
+    content: '';
+    left: 0;
+    top: 0;
+    z-index: -1;
+    position: fixed;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.9) 100%),url('../../images/netflix\ clone\ home\ page\ background\ image\ multiple\ shows\ collage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    max-width: 1280px;
+    margin: auto;
+}
+header{
+    padding: 30px 10px;
+}
+
+#landing-hero-section{
+    position: relative;
+    width: 100%;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+#landing-hero-section h1{
+    max-width: 640px;
+    text-align: center;
+    margin: auto;
+    font-size: 3.125rem;
+}
+#landing-hero-section h2{
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 640px;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+#landing-hero-section form{
+    flex-flow: column-reverse;
+    max-width: 950px;
+    padding-top: .85rem;
+}
+#landing-hero-section form h3{
+    font-weight: 400;
+}
+#landing-hero-section .emailField{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1f1f1f;
+    min-width: 450px;
+    height: 60px !important;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0;
+}
+
+#landing-hero-section .email-form-lockup{
+    text-align: center;
+    flex-direction: row;
+    margin: auto;
+}
+#landing-hero-section .submit{
+    font-size: 1.625rem;
+    min-height: 60px;
+    border: 1px solid #e50914;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#right-icon{
+    width: 1.425rem;
+    color: white;
+    margin-bottom: -2px;
+}
+
+@media (max-width: 770px){
+    .email-form-lockup{
+        display: block;
+    }
+    .submit{
+        margin-top: 15px;
+    }
+}
+
+/* <!--Login form styling start--> */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.loginContainer{
+    max-width: 300px;
+    margin: auto;
+    background-color: black;
+    box-shadow: var(--box-shadow);
+    padding: 30px 60px 68px 40px;
+    border-radius: 3px;
+}
+.loginContainer h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 28px !important;
+}
+#loginForm input, #loginForm button{
+    padding: 16px 5px;
+    margin-top: 30px;
+    border: 0;
+}
+#loginForm input{
+    background: #333;
+    color: white;
+    border-radius: 3px;
+}
+#loginForm #email{
+    margin: 0;
+}
+#loginForm .para{
+    margin-top: 20px;
+    color: gray;
+}
+#loginForm #errorEmail, #errorPassword{
+    color: #E87C03;
+    font-size: 14px;
+}
+#loginForm p .signUp{
+    color: white;
+}
+/* Register page styling start */
+
+
+
+
+/* Logout page styling start */
+.logoutContainer{
+    color: black;
+    max-width: 400px;
+    background: white;
+    margin: auto;
+    margin-top: 60px;
+    padding: 30px;
+    border-radius: 3px;
+}
+.logoutContainer p{
+    margin-top: 20px;
+}
+.logoutContainer button{
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 20px;
+}
+.logoutButton{
+    background: #0080ff;
+}
