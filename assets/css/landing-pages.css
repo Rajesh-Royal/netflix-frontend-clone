@@ -95,6 +95,18 @@ header{
     font-size: 1.625rem;
     font-weight: 400;
 }
+@media (max-width: 450px){
+    #landing-hero-section h1, #landing-hero-section h2{
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    #landing-hero-section{
+        display: block !important;
+    }
+    #landing-hero-section .email-form-lockup{
+        margin: 0px !important;
+    }
+}
 #landing-hero-section form{
     flex-flow: column-reverse;
     max-width: 950px;
