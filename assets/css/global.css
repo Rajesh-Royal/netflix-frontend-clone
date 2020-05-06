@@ -3,6 +3,7 @@
     --headline-color: white;
     --link-color: rgb(255, 255, 255);
     --white-color: white;
+    --red-color:#e50914;
     --light-color: rgb(231, 231, 231);
 
     --button-color: #e50914;
@@ -44,7 +45,9 @@ h2, h3{
 
 h4, h5, h6{
     font-size: var(--font-size-20);
-    font-weight: var(--font-weight-800);
+    font-weight: var(--font-weight-400);
+    margin: 0;
+    padding: 0;
 }
 p, span{
     font-size: var(--font-size-17);
@@ -67,6 +70,9 @@ button:focus {
 .d-flex{
     display: flex;
     flex-wrap: wrap;
+}
+.flex-no-wrap{
+    flex-wrap: nowrap;
 }
 .flex-basis{
     flex-basis: 100%;
@@ -92,16 +98,22 @@ button:focus {
 
 
 .w-50{
-    width: 50%;
+    max-width: 50%;
 }
 .w-40{
-    width: 40%;
+    max-width: 40%;
 }
 .w-60{
-    width: 60%;
+    max-width: 60%;
 }
 .w-30{
-    width: 30%;
+    max-width: 30%;
+}
+.w-36{
+    max-width: 36%;
+}
+.w-200{
+    max-width: 94%;
 }
 
 .f-w-8{
@@ -132,23 +144,39 @@ button:focus {
     border-radius: var(--border-radius);
     padding: 10px 20px;
     color: var(--link-color) !important;
+    background: var(--button-color);
     transition: all .3s;
     cursor: pointer;
     font-size: var(--font-size-18);
 }
 
-.blue-color{
-    color: var(--link-color);
+.red-color{
+    color: var(--red-color);
+}
+.white-color{
+    color: var(--white-color);
+}
+.bg-black{
+    background-color: black;
 }
 
-.p-t-4{
+.p-t-40{
     padding-top: 40px;
 }
-.p-b-4{
+.p-b-40{
     padding-bottom: 40px;
 }
-.p-t-2{
+.p-t-20{
     padding-top: 20px;
+}
+.p-l-10{
+    padding-left: 10px;
+}
+.p-r-10{
+    padding-right: 10px;
+}
+.p-t-10{
+    padding-top: 10px;
 }
 .p-y-40{
     padding: 0px 40px;
@@ -159,8 +187,20 @@ button:focus {
 .p-x-20{
     padding: 20px 0px;
 }
+
+/* margins */
+.m-l-25{
+    margin-left: 25px;
+}
+.m-r-25{
+    margin-right: 25px;
+}
+.m-t-20{
+    margin-top: 20px;
+}
 .container{
-    max-width: 1280px;
-    margin: 0px auto;
-    padding: 10px 10px;
+    max-width: 100%;
+    margin: 0;
+    padding-left:40px;
+    padding-right: 40px;
 }

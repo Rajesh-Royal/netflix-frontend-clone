@@ -1,0 +1,221 @@
+@font-face {
+    font-family: Netflix Sans;
+    src: url(../fonts/Regular.woff2);
+  }
+  body,html{
+      font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      position: relative;
+      background-color: black;
+      z-index: -1;
+  }
+  /* main styling start */
+ header, .container, .mylist, .continue-watching{
+     z-index: 10;
+ }
+ .image-size{
+     max-width: 94%;
+ }
+  /* header styling */
+  header{
+      line-height: 0.4;
+      background-image: linear-gradient(to bottom, rgba(24, 24, 24, 0.7) 0%, rgba(58, 58, 58, 0.5) 50%,rgba(99, 99, 99, 0.2) 90%, rgba(20, 20, 20, 0.0001) 100%);
+      min-height: 68px;
+      padding: 0 40px;
+      position: fixed;
+      width: 95%;
+  }
+  @media (max-width: 600px){
+      header{
+          padding: 0px 0px;
+          width: 100%;
+      }
+  }
+  .logo{
+      text-decoration: none;
+      font-weight: 800;
+      transform: translateZ(2);
+  }
+  .nav-item{
+      padding: 0px 15px;
+  }
+  .righticons img{
+      width: 22px;
+      margin-right: 25px;
+      color: white;
+  }
+
+  @media (max-width: 760px){
+      .righticons{
+          display: none;
+      }
+  }
+
+  /* hero section styling */
+  .hero-background-image{
+    z-index: -1;
+    position: absolute;
+    background-position: center center;
+    background-size: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .shadow-layer{
+    background: -webkit-linear-gradient(13deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 85%);
+    background: -moz- oldlinear-gradient(13deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 85%);
+    background: -o-linear-gradient(13deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 85%);
+    background: linear-gradient(77deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 85%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 26.09%;
+    bottom: 0;
+    opacity: 1;
+    z-index: -1;
+    -webkit-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+ 
+  #browse-dashboard{
+      padding-top: 120px;
+  }
+  #browse-dashboard .show-logo{
+      max-width:380px;
+  }
+  #browse-dashboard .ranking svg{
+      width: 25px;
+  }
+  #browse-dashboard .ranking span{
+    color: #fff;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+    margin-top: .1vw;
+  }
+  #browse-dashboard .synopsis p{
+    color: #fff;
+    font-weight: normal;
+    line-height: 1.4;
+    width: 100%;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  }
+  .buttons-container button{
+    border-radius: 3px;
+    padding-left: calc(3.6rem / 2);
+    padding-right: calc(3.6rem / 2);
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    color: black;
+    transition: all .3s;
+    cursor: pointer;
+    font-size: var(--font-size-18);
+    border: 0;
+    margin-right: 1rem;
+  }
+  .buttons-container svg{
+    width: 25px;
+    margin-bottom: -5px;
+  }
+  .buttons-container .play-button{
+    background: white;
+    color: black;
+    border: 0;
+  }
+  .buttons-container .more-info-button{
+    background-color: rgba(133,133,133,0.6);
+    color: white;
+    font-weight: bold;
+  }
+
+  #continue-watching{
+    box-shadow: 20px 10px 30px 180px black;
+  }
+
+  /* owl carousel */
+
+  .owl-prev{
+    position: absolute;
+    top: 30%;
+    left: -30px;
+  }
+  .owl-next{
+    position: absolute;
+    top: 30%;
+    right: -8px;
+  }
+
+  .owl-prev span, .owl-next span{
+      font-size: 50px;
+      opacity: 0.6;
+  }
+
+  @media (max-width: 769px){
+      .owl-prev, .owl-next{
+          top: 10%;
+      }
+  }
+  @media (max-width: 500px){
+    .owl-prev, .owl-next{
+        top: -10%;
+    }
+}
+
+/* my list */
+
+#mylist{
+    padding-top: 140px;
+}
+@media (max-width: 900px){
+    #mylist{
+            padding-top: 40px;
+    }
+}
+
+/* big section */
+.big-section{
+    margin-top: 40px;
+}
+.big-section img{
+    max-width: 60%;
+}
+
+/* footer */
+
+footer{
+    color: #808080 !important;
+    padding-top: 80px;
+}
+footer .footer-container{
+    max-width: 800px;
+}
+.widgets div{
+    margin: 10 10px;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    list-style: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.service{
+    border: 1px solid #808080;
+    color: #808080 !important;
+    background-color: transparent !important;
+    margin: 20px 0px;
+}

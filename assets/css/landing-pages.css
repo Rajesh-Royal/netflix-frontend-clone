@@ -58,7 +58,7 @@ body::before{
     top: 0;
     z-index: -1;
     position: fixed;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.9) 100%),url('../../images/netflix\ clone\ home\ page\ background\ image\ multiple\ shows\ collage.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.9) 100%),url('../../images/netflix\ clone\ home\ page\ background\ image\ multiple\ shows\ collage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -111,8 +111,8 @@ header{
     min-width: 450px;
     height: 60px !important;
     box-sizing: border-box;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
     border: 0;
 }
 
@@ -126,8 +126,8 @@ header{
     min-height: 60px;
     border: 1px solid #e50914;
     border-radius: 0;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 #right-icon{
