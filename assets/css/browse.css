@@ -39,6 +39,22 @@
       font-weight: 800;
       transform: translateZ(2);
   }
+  .second-logo-text{
+      display: none;
+  }
+  @media (max-width: 568px){
+      .logo{
+          display: none;
+      }
+      .second-logo-text{
+        display: block;
+        font-size: 40px;
+        margin-left: 10px;
+        text-decoration: none;
+        font-weight: 800;
+        transform: translateZ(2);
+      }
+  }
   .nav-item{
       padding: 0px 15px;
   }
@@ -66,6 +82,17 @@
     bottom: 0;
     width: 100%;
   }
+  video{
+    object-fit:fill
+  
+  }
+
+  @media (max-width: 750px){
+      .hero-background-image{
+        width: auto;
+        height: 80vh;
+      }
+  }
 
   .shadow-layer{
     background: -webkit-linear-gradient(13deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 85%);
@@ -87,6 +114,12 @@
  
   #browse-dashboard{
       padding-top: 120px;
+  }
+  @media (max-width: 600px){
+      #browse-dashboard .text-container{
+        width: 100%;
+        margin-left: 10px;
+      }
   }
   #browse-dashboard .show-logo{
       max-width:380px;
@@ -146,19 +179,32 @@
 
   .owl-prev{
     position: absolute;
-    top: 30%;
-    left: -30px;
+    top: 20%;
+    left: -20px;
   }
   .owl-next{
     position: absolute;
-    top: 30%;
+    top: 20%;
     right: -8px;
   }
 
+  .owl-prev:hover .owl-prev span{
+      display: block;
+  }
+  .owl-next:hover .owl-next span{
+    display: block;
+}
+
   .owl-prev span, .owl-next span{
       font-size: 50px;
-      opacity: 0.6;
+      display: none;
   }
+  .owl-carousel:hover .owl-prev span{
+    display: block;
+}
+.owl-carousel:hover .owl-next span{
+    display: block;
+}
 
   @media (max-width: 769px){
       .owl-prev, .owl-next{
@@ -185,9 +231,23 @@
 /* big section */
 .big-section{
     margin-top: 40px;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
 }
 .big-section img{
-    max-width: 60%;
+    max-width: 50%;
+    padding-right: 30px;
+}
+@media (max-width: 870px){
+    .big-section{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .big-section img{
+        max-width: 100%;
+        padding-right:0px;
+        margin-bottom: 30px;
+    }
 }
 
 /* footer */

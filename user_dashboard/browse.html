@@ -31,10 +31,10 @@
                 nav: true,
                 responsive: {
                     0: {
-                        items: 3
+                        items: 2
                     },
                     600: {
-                        items: 3
+                        items: 2
                     },
                     1000: {
                         items: 5
@@ -58,7 +58,10 @@
         <div>
             <header class="d-flex space-between flex-center flex-middle">
                 <div class="nav-links d-flex flex-center flex-middle">
-                    <h2 class="logo logo-text red-color f-s-28 m-r-25">NETFLIX</h2>
+                    <a href="/">
+                        <h2 class="logo logo-text red-color f-s-28 m-r-25">NETFLIX</h2>
+                        <h2 class="second-logo-text red-color f-s-28">N</h2>
+                        </a>
                     <a href="/home.html" class="nav-item">Home</a>
                     <a href="/tvshow.html" class="nav-item">TV Show</a>
                     <a href="/movies.html" class="nav-item">Movies</a>
@@ -79,7 +82,7 @@
                         <!--trailer video-->
                         <video class="hero-background-image" id="hero-video"
                             poster="../images/tv-show/poster/never-have-ever-tv-show.webp">
-                            <source src="../images/tv-show/videos/Never Have I Ever - Official Trailer - Netflix.mp4"
+                            <source src="../images/tv-show/videos/Never Have I Ever - Official Trailer - Netflix_2.mp4"
                                 type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
@@ -88,7 +91,7 @@
                         <div class="shadow-layer"></div>
                     </div>
 
-                    <div class="container" style="z-index: 5;">
+                    <div class="container text-container" style="z-index: 5;">
                         <div class="contentlogo">
                             <img src="../images/tv-show/poster/never-have-ever-logo.webp" alt="content logo"
                                 class="show-logo" />
@@ -142,6 +145,8 @@
                     </div>
                 </section>
             </div>
+<div class="black-background black-background">
+
 
             <!--my list -->
             <section id="mylist" class="container">
@@ -217,8 +222,9 @@
             </section>
 
             <!--big poster screen left poster right content-->
-            <section class="big-section d-flex flex-start container space-between">
-                <img src="../images/tv-show/poster/sex-education.webp" alt="">
+            <section class="big-section d-flex flex-start container">
+                    <img src="../images/tv-show/poster/sex-education.webp" alt="">
+                
                 <div class="right-side">
                     <div class="contentlogo">
                         <img src="../images/tv-show/poster/sex-education-logo.webp" alt="content logo"
@@ -400,6 +406,7 @@
             
 
         </footer>
+    </div>
     </main>
 
     <script>

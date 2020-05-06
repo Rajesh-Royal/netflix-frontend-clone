@@ -204,3 +204,9 @@ button:focus {
     padding-left:40px;
     padding-right: 40px;
 }
+@media (max-width: 600px){
+    .container{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
