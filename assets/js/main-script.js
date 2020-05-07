@@ -4,7 +4,7 @@ $(document).ready(function () {
     //autoplay hero section video 
 
     setTimeout(function () {
-        //document.getElementById("hero-video").play();
+        document.getElementById("hero-video").play();
     }, 5000);
 
     //onscroll change header color 
