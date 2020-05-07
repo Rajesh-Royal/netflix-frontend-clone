@@ -171,6 +171,9 @@
     color: white;
     font-weight: bold;
   }
+  .play-button a{
+      color: black;
+  }
 
   #continue-watching{
     box-shadow: 20px 10px 30px 180px black;
