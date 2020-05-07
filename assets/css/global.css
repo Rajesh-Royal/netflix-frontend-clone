@@ -198,6 +198,10 @@ button:focus {
 .m-t-20{
     margin-top: 20px;
 }
+
+.text-shadow{
+    text-shadow: 1px 1px 2px #242323;
+}
 .container{
     max-width: 100%;
     margin: 0;
