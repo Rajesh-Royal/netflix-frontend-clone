@@ -11,3 +11,9 @@ https://agitated-hoover-8aff97.netlify.app/user_dashboard/browse.html
 
 ## Preview screen
 ![img description](https://github.com/Rajesh-Royal/netflix-clone-cideigniter/blob/master/images/screenshot.jpg)
+
+
+### License 
+
+ ###### GNU GENERAL PUBLIC LICENSE
+ Version 3, 29 June 2007
