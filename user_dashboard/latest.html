@@ -53,9 +53,62 @@
                     <a href="mylist.html" class="nav-item">My List</a>
                 </div>
                 <div class="righticons d-flex flex-end flex-middle">
-                    <img src="../images/icons/search.svg" alt="search icon">
-                    <img src="../images/icons/notification.svg" alt="notificatio icon">
-                    <img src="../images/icons/user.svg" alt="user profile icon">
+                    <a href="search.html"><img src="../images/icons/search.svg" alt="search icon"></a>
+                    <div class="dropdown notification">
+                        <img src="../images/icons/notification.svg" alt="notificatio icon">
+                        <div class="dropdown-content">
+                            <a href="#" class="profile-item d-flex flex-middle">
+                                <img src="../../images/icons/user2.png" alt="user profile icon" class="user-icon">
+                                <span>You have new notification from <span>User 123</span></span>
+                            </a>
+                            <a href="#" class="profile-item d-flex flex-middle">
+                                <img src="../../images/icons/user1.png" alt="user profile icon" class="user-icon">
+                                <span>You have new notification from <span>User 123</span></span>
+                            </a>
+                            <a href="#" class="profile-item d-flex flex-middle">
+                                <img src="../../images/icons/user4.png" alt="user profile icon" class="user-icon">
+                                <span>You have new notification from <span>User 123</span></span>
+                            </a>
+                            <a href="#" class="profile-item d-flex flex-middle">
+                                <img src="../../images/icons/user3.png" alt="user profile icon" class="user-icon">
+                                <span>You have new notification from <span>User 123</span></span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="dropdown">
+                        <img src="../images/icons/user-image-green.png" alt="user profile icon" class="user-icon"> <span class="profile-arrow"></span>
+
+                        <div class="dropdown-content">
+                            <div class="profile-links">
+                                <a href="#" class="profile-item d-flex flex-middle">
+                                    <img src="../images/icons/user1.png" alt="user profile icon" class="user-icon">
+                                    <span>Rajesh</span>
+                                </a>
+                                <a href="#" class="profile-item d-flex flex-middle">
+                                    <img src="../images/icons/user2.png" alt="user profile icon" class="user-icon">
+                                    <span>Karan</span>
+                                </a>
+                                <a href="#" class="profile-item d-flex flex-middle">
+                                    <img src="../images/icons/user3.png" alt="user profile icon" class="user-icon">
+                                    <span>Pappy</span>
+                                </a>
+                                <a href="#" class="profile-item d-flex flex-middle" style="margin-bottom: 13px;">
+                                    <img src="../images/icons/user4.png" alt="user profile icon" class="user-icon">
+                                    <span>Denny</span>
+                                </a>
+                                <a href="#" class="profile-item last" >Manage Profiles</a>
+                            </div>
+                            <div class="line"></div>
+                            <div class="links d-flex direction-column">
+                                <a href="user-profile/home.html">Account</a>
+                                <a href="#">Help Center</a>
+                                <a href="/">Sign Out of Netflix</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
                 </div>
             </header>
 
@@ -281,7 +334,7 @@
     </main>
 
     <div class="footer-navigation d-flex space-between">
-        <a href="home.html" class="nav-item active">
+        <a href="browse.html" class="nav-item active">
             <i class="fa fa-home" aria-hidden="true"></i> </br>
             <span>Home</span>
         </a>
@@ -293,7 +346,7 @@
             <i class="fa fa-film" aria-hidden="true"></i></br>
             Latest
         </a>
-        <a href="useraccount.html" class="nav-item">
+        <a href="user-profile/home.html" class="nav-item">
             <i class="fa fa-user" aria-hidden="true"></i></br>
             Account
         </a>
