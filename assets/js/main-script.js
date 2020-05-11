@@ -9,11 +9,11 @@ $(document).ready(function () {
 
     //onscroll change header color 
     $(window).on("scroll", function() {
-        if($(window).scrollTop() > 50) {
+        if($(window).scrollTop() > 100) {
             $("header").css("background-color", "black");
-        } else {
+        } else if($(window).scrollTop() < 10) {
             //remove the background property so it comes transparent again (defined in your css)
-           $("header").css("background-color", "transprent");
+            $("header").css("background-color", "transparent");
         }
     });
 
