@@ -65,6 +65,7 @@
       color: white;
   }
 
+
 /* dropdown styling header notification start */
   .notification .dropdown-content{
       right: 6%;
@@ -111,10 +112,11 @@
   }
 
   /* dropdown styling header user account */
+  .profile-arrow{
+      margin-top: -15px;
+  }
   .dropdown{
       cursor: pointer;
-      display: flex;
-      align-items: center;
   }
 
   .dropdown-content {
