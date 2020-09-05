@@ -1,6 +1,6 @@
 <p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/shapeShifterGray.gif" alt="Gray shape shifter" height="60"/></a></p>
 <h1 align="center">Netflix Frontend Clone</h1>
-<p align="center">Video streaming website Netflix Frontend clone with HTML5, CSS3, JS .</p>
+<p align="center">Video streaming website Netflix Frontend clone, Built with Pure CSS3 using Flexbox, JS dependencies: OwlCarousel and JQuery</p>
 
 <p align="center">
 	<a href="https://github.com/nastyox/Rando.js#nastyox"><img src="https://github.com/Rajesh-Royal/netflix-frontend-clone/blob/master/images/directory%20size.png" height="30"/></a>
