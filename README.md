@@ -9,7 +9,7 @@
 
 <p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="https://github.com/Rajesh-Royal/netflix-frontend-clone/blob/master/images/final%20screenshot%20readme%20preview.jpg" width="100%"/></a><a href="#nastyox"></a></p><br/>
 
-### Demo link 
+### Demo links 🚁😊🚁
 
 ##### Login/landing page
 https://netflixfrontendclone.netlify.app/
