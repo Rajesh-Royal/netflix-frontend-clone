@@ -23,5 +23,5 @@ https://netflixfrontendclone.netlify.app/user_dashboard/browse.html
 
 ### License 
 
- ###### GNU GENERAL PUBLIC LICENSE
+ ###### <a href="https://github.com/Rajesh-Royal/netflix-frontend-clone/blob/master/LICENSE" target="_blank">GNU GENERAL PUBLIC LICENSE</a>
  Version 3, 29 June 2007
