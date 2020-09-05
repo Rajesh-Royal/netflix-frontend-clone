@@ -1,4 +1,4 @@
-# netflix-clone-codeIgniter
+<h2 text-align="center">Netflix Frontend Clone</h2>
 Video streaming website Netflix clone. Frontend - HTML5, CSS3, JS | Backend - CodeIgniter
 
 ### Demo link 
