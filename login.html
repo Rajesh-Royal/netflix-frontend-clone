@@ -9,8 +9,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Netflix login – Watch TV Shows Online, Watch Movies Online</title>
-    <meta name="description" content="Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.">
+    <title>Netflix login – Watch TV Shows Online, Watch Movies Online | do not enter you any of the information</title>
+    <meta name="description" content="This is a frontend only clone of netflix - Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/landing-pages.css">
@@ -40,10 +40,11 @@
             <!--Login form start-->
 
                 <div class="loginContainer d-flex direction-column">
+                    <p>⚠ Do not enter your personal information.</p>
                     <h2 class="formtitle">
                         Sign In
                     </h2>
-                    <form action="/user_dashboard/browse.html" id="loginForm" class="d-flex direction-column" method="post" name="loginForm">
+                    <form action="" id="loginForm" class="d-flex direction-column" method="post" name="loginForm">
                         <input type="text" name="email" id="email" class="email" placeholder="Email or phone number" onchange="validateEmail()" required/>
                         <p id="errorEmail">Please enter a valid email address or phone number.</p>
 
@@ -51,7 +52,7 @@
                         <p id="errorPassword">Your password must contain between 4 and 60 characters.</p>
 
                         <button type="submit" class="button submitButton" id="signInButton" disabled="disabled">
-                            Sign In
+                            <a style="text-decoration: none; color: white;" href="/user_dashboard/browse.html">Sign In</a>
                         </button>
 
                         <div class="rememberMe">
@@ -89,6 +90,10 @@
                 document.getElementById('signInButton').disabled = true;
             }
         }
+
+document.getElementById("signInButton")?.addEventListener("click", function(e){
+   e.preventDefault();
+})
     </script>
 </body>
 
