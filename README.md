@@ -14,10 +14,10 @@
 ### Demo links 🚁😊🚁
 
 ##### Login/landing page
-https://netflixfrontendclone.netlify.app/
+https://netflix-frontend-clone-theta.vercel.app/
 
 ##### User Dashboard
-https://netflixfrontendclone.netlify.app/user_dashboard/browse.html
+https://netflix-frontend-clone-theta.vercel.app/user_dashboard/browse.html
 
 ## Preview screen
 ![img description](https://github.com/Rajesh-Royal/netflix-clone-cideigniter/blob/master/images/screenshot.jpg)
